@@ -5,7 +5,7 @@ draft = false
 +++
 拖了好久好久好久的英国游记，终于……写了……
 
-<!--more-->
+
 
 ## 启程与到达
 
@@ -130,3 +130,52 @@ draft = false
 ![9af99cbbe4db272154ebc9c7f540b5ac.jpg](/images/9af99cbbe4db272154ebc9c7f540b5ac.jpg)
 
 在Queen's House里的视角，正好可以看到天文台。
+
+### 看桥看城堡
+
+![555a5e14439febc61a64c761c43753b1.jpg](/images/555a5e14439febc61a64c761c43753b1.jpg)
+
+![8448aea07775fa4b1378196ccf63cf49.jpg](/images/8448aea07775fa4b1378196ccf63cf49.jpg)
+
+![ed8206c104bb0ef0d558e47dcdcccd55.jpg](/images/ed8206c104bb0ef0d558e47dcdcccd55.jpg)
+
+忘了因为什么突然要去这边了，但总之！除了桥、城堡和宪兵之外，这边还有个集市！
+
+搜了搜看起来很好吃，就过来转转，我虽然不爱吃蘑菇，但是蘑菇饭味道还是可以的，西班牙海鲜饭也不错。顺便一说我在伦敦这几天特别馋当地的一个网红小吃，就是草莓上淋巧克力酱，我说这个看着就好吃，当然了这俩东西凑在一起也不可能不好吃，就是热量爆炸，特别纠结，三过而不吃，不吃但是馋……
+
+![image.png](/images/image-2.png)
+
+### 我的老家Camden town
+
+世界著名的朋克文化发源地，刚下车我就觉得这里不一样，首先，这里有popeyes！其次，它还有MINISO（。
+
+![6dbfd23ff00386124f5bef0cde9c8a05.jpg](/images/6dbfd23ff00386124f5bef0cde9c8a05.jpg)
+
+![29b5511680240bbd46d1dbe0630ff384.jpg](/images/29b5511680240bbd46d1dbe0630ff384.jpg)
+
+气质一下就特别不伦敦西区，特别不有钱，特别不精致了是不是。
+
+teens挺多的，不过据说英国的teens比澳洲和美国的都客气很多，据我观察也的确是这样，去吃炸鸡的时候还有几个小孩特地帮我们拉了一下门，我差点就跟他们鞠躬“ありがとうございます”了。
+
+![f5925ae02191635822f3a501a0fa866f.jpg](/images/f5925ae02191635822f3a501a0fa866f.jpg)
+
+↑ 还是吃到了（。
+
+伦敦我最喜欢的地方应该就是这里了，过来之后立刻看租房价格。我说等我们来伦敦住就住这里。对象：？
+
+![bc441f11c855a4011ab8587c5d6b21a3.jpg](/images/bc441f11c855a4011ab8587c5d6b21a3.jpg)
+
+![67c710ee7576ac4b89623c7a011340fa.jpg](/images/67c710ee7576ac4b89623c7a011340fa.jpg)
+
+顺便伦敦的Uber boat很有意思，居然可以像是坐地铁一样坐船，但就是没太明白站和站的规则，本来想着从tower station坐船到charing cross的，结果发现并不停靠？还是只有某个下班时段不停靠？但总之最后又发挥了我们东京都民的光荣传统，走。
+
+路上风景倒是蛮好看的。
+
+![46d983ff06b3c2e5e0e1e6744bcb9262.jpg](/images/46d983ff06b3c2e5e0e1e6744bcb9262.jpg)
+
+![d52673f3c262a700f9e0ad87b8c16013.jpg](/images/d52673f3c262a700f9e0ad87b8c16013.jpg)
+
+![37399be28a6b7cfb28eef8dcf6cf38d2.jpg](/images/37399be28a6b7cfb28eef8dcf6cf38d2.jpg)
+
+说实话住在这里我不知道会有多开心（没有说东京不好的意思）。
+
