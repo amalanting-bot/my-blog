@@ -1,0 +1,52 @@
+media:
+  input: static/images
+  output: /images
+
+content:
+  - name: posts
+    label: 文章
+    type: collection
+    path: content/posts
+    format: toml-frontmatter
+    delimiters: "+++"
+    subfolders: true
+    filename: "{title}/index.md"
+    view:
+      fields: [title, date, draft]
+      sort: date
+      order: desc
+    fields:
+      - name: title
+        label: 标题
+        type: string
+      - name: date
+        label: 日期
+        type: date
+      - name: draft
+        label: 草稿（勾选后不会发布）
+        type: boolean
+        default: false
+      - name: body
+        label: 正文
+        type: rich-text
+
+  - name: about
+    label: 关于我
+    type: file
+    path: content/about.md
+    format: toml-frontmatter
+    delimiters: "+++"
+    fields:
+      - name: title
+        label: 标题
+        type: string
+      - name: date
+        label: 日期
+        type: date
+      - name: draft
+        label: 草稿
+        type: boolean
+        default: false
+      - name: body
+        label: 正文
+        type: rich-text
