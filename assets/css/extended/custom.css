@@ -1,0 +1,9 @@
+/* 缩小列表页顶部大标题（如 "Posts"）的字号 */
+.archive-title {
+  font-size: 2rem !important;
+}
+
+/* 缩小文章卡片标题字号，让排版更协调 */
+.entry-header h2 {
+  font-size: 1.3rem !important;
+}
