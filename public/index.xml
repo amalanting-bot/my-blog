@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>銀河のポタージュ</title>
+    <link>https://my-blog-bay-ten-83.vercel.app/</link>
+    <description>Recent content on 銀河のポタージュ</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 30 Aug 2026 19:18:12 +0900</lastBuildDate>
+    <atom:link href="https://my-blog-bay-ten-83.vercel.app/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About</title>
+      <link>https://my-blog-bay-ten-83.vercel.app/about/</link>
+      <pubDate>Sun, 30 Aug 2026 19:18:12 +0900</pubDate>
+      <guid>https://my-blog-bay-ten-83.vercel.app/about/</guid>
+      <description>&lt;p&gt;细嚼慢咽，百无禁忌。不知道说什么，先空着之后慢慢填&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
