@@ -6,8 +6,15 @@
     <description>Recent content on 銀河のポタージュ</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 30 Aug 2026 12:00:00 +0900</lastBuildDate>
+    <lastBuildDate>Sun, 30 Aug 2026 19:18:12 +0900</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About</title>
+      <link>http://localhost:1313/about/</link>
+      <pubDate>Sun, 30 Aug 2026 19:18:12 +0900</pubDate>
+      <guid>http://localhost:1313/about/</guid>
+      <description>&lt;p&gt;细嚼慢咽，百无禁忌。不知道说什么，先空着之后慢慢填&lt;/p&gt;</description>
+    </item>
     <item>
       <title>My First Post</title>
       <link>http://localhost:1313/posts/my-first-post/</link>
