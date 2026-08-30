@@ -1,5 +1,5 @@
 baseURL = "https://gingapotage.vercel.app/"
-languageCode = "en-us"
+languageCode = "zh"
 title = "銀河のポタージュ"
 theme = "PaperMod"
 [params]

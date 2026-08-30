@@ -2,10 +2,26 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Posts on 銀河のポタージュ</title>
-    <link>https://my-blog-bay-ten-83.vercel.app/posts/</link>
+    <link>http://localhost:1313/posts/</link>
     <description>Recent content in Posts on 銀河のポタージュ</description>
     <generator>Hugo</generator>
-    <language>en-us</language>
-    <atom:link href="https://my-blog-bay-ten-83.vercel.app/posts/index.xml" rel="self" type="application/rss+xml" />
+    <language>zh</language>
+    <lastBuildDate>Sun, 30 Aug 2026 20:37:09 +0900</lastBuildDate>
+    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>游记 | 我对英国的全部了解来自于福尔摩斯探案集</title>
+      <link>http://localhost:1313/posts/uk-travelogue/</link>
+      <pubDate>Sun, 30 Aug 2026 20:37:09 +0900</pubDate>
+      <guid>http://localhost:1313/posts/uk-travelogue/</guid>
+      <description>&lt;h2 id=&#34;写在前面&#34;&gt;写在前面&lt;/h2&gt;
+&lt;p&gt;我对欧洲的情感较为复杂，一段时间不去比较想念，去了之后很快就想回到亚洲，距离上次去欧洲大概也有六年了，所以一琢磨，可以，该去英国玩了！&lt;br&gt;
+此前其实没去过英国，第一是脱欧了不能申根一趟玩，第二是我对英国文化知道的实在是寥寥无几，水平基本停留在小学，甚至问出过“三权分立说的是英国吗”这种话，实在是给应试教育丢人了。&lt;br&gt;
+至于是怎么决定英国的，也比较曲折。&lt;/p&gt;
+&lt;p&gt;对象对一切基础设施没那么便利的地方都不感兴趣，不喜欢热也不喜欢冷，北欧和新加坡是去不成了，我想去非洲看动物，他拒绝；去美国和回国玩，我俩也都不乐意，最后想了想，只能在较为发达的西欧——即英法德里挑一个了，那既然我没去过英国，就英国吧。&lt;br&gt;
+去之前在回国飞还是在东京直接飞之前纠结了一下，最后觉得还是东京直飞吧，虽然贵点还慢点但是…………真的没什么优点了，反正最后还是从东京飞的——&lt;br&gt;
+14个小时！！&lt;br&gt;
+但好消息是一睁眼看到了北极。&lt;br&gt;
+&lt;img alt=&#34;北极&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/posts/uk-travelogue/%E5%8C%97%E6%9E%81.jpg&#34;&gt;&lt;/p&gt;</description>
+    </item>
   </channel>
 </rss>
