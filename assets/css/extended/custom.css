@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;700&display=swap');
+
+body {
+  font-family: 'Noto Serif SC', serif;
+}
+
 /* 缩小列表页顶部大标题（如 "Posts"）的字号 */
 .archive-title {
   font-size: 2rem !important;
@@ -7,6 +13,7 @@
 .entry-header h2 {
   font-size: 1.3rem !important;
 }
+
 /* 缩小文章详情页顶部标题字号 */
 .post-title {
   font-size: 1.8rem !important;
