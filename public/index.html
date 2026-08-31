@@ -133,10 +133,20 @@
     </main>
     
 <footer class="footer">
-        <span>&copy; 2026 <a href="http://localhost:1313/">銀河のポタージュ</a></span> · 
+    
+    <div style="font-size: 0.85rem; color: var(--secondary); margin-bottom: 6px; text-align: center;">
+      
+      
+        
+      
+      <span>共写了 3,050 字</span>
+      <span> · </span>
+      <span>已上线 <span id="site-running-days">0</span> 天</span>
+    </div>
 
     
-    
+        <span>&copy; 2026 <a href="http://localhost:1313/">銀河のポタージュ</a></span> · 
+
     <span>
         Powered by
         <a href="https://gohugo.io/?utm_source=papermod" rel="noopener" target="_blank">Hugo</a> &
@@ -151,10 +161,26 @@
     </svg>
 </a>
 
+
+<script>
+  (function() {
+    
+    const siteStartDate = "2025-01-01"; 
+    
+    const start = new Date(siteStartDate).getTime();
+    const now = new Date().getTime();
+    const days = Math.floor((now - start) / (1000 * 60 * 60 * 24));
+    
+    const el = document.getElementById("site-running-days");
+    if (el) {
+      el.textContent = days;
+    }
+  })();
+</script>
+
 <script>
     let menu = document.getElementById('menu');
     if (menu) {
-        
         const scrollPosition = localStorage.getItem("menu-scroll-position");
         if (scrollPosition) {
             menu.scrollLeft = parseInt(scrollPosition, 10);
@@ -209,7 +235,6 @@
         }
     })
 
-</script>
-</body>
+</script></body>
 
 </html>

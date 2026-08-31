@@ -1,5 +1,17 @@
 {{- if not (.Param "hideFooter") }}
 <footer class="footer">
+    <!-- 1. 统计信息（放在版权上方） -->
+    <div style="font-size: 0.85rem; color: var(--secondary); margin-bottom: 6px; text-align: center;">
+      {{ $totalWords := 0 }}
+      {{ range where .Site.RegularPages "Section" "posts" }}
+        {{ $totalWords = add $totalWords .WordCount }}
+      {{ end }}
+      <span>共写了 {{ lang.FormatNumber 0 $totalWords }} 字</span>
+      <span> · </span>
+      <span>已上线 <span id="site-running-days">0</span> 天</span>
+    </div>
+
+    <!-- 2. 原版版权与驱动信息 -->
     {{- if not site.Params.footer.hideCopyright }}
         {{- if site.Copyright }}
         <span>{{ site.Copyright | markdownify }}</span>
@@ -14,13 +26,6 @@
         {{- print " · "}}
     {{- end }}
 
-    {{/*
-        - The "Powered by Hugo" text is intentionally left at the end of the footer to give it more prominence.
-        - We kindly encourage you to keep this line. Keeping this credit helps open source projects like PaperMod and Hugo reach more people, supports the open source ecosystem, and shows appreciation for the work that goes into these tools.
-        - If you choose to remove it, please consider adding a link to the PaperMod GitHub repository somewhere on your site to give credit to the project and its contributors.
-        - Support us by sponsoring the project on GitHub Sponsors: https://github.com/sponsors/adityatelange
-    */}}
-    
     <span>
         Powered by
         <a href="https://gohugo.io/?utm_source=papermod" rel="noopener" target="_blank">Hugo</a> &
@@ -41,10 +46,26 @@
 
 {{- partial "extend_footer.html" . }}
 
+<!-- 计算上线天数脚本 -->
+<script>
+  (function() {
+    // 替换为实际建站日期，格式：YYYY-MM-DD
+    const siteStartDate = "2025-01-01"; 
+    
+    const start = new Date(siteStartDate).getTime();
+    const now = new Date().getTime();
+    const days = Math.floor((now - start) / (1000 * 60 * 60 * 24));
+    
+    const el = document.getElementById("site-running-days");
+    if (el) {
+      el.textContent = days;
+    }
+  })();
+</script>
+
 <script>
     let menu = document.getElementById('menu');
     if (menu) {
-        // Set the scroll position
         const scrollPosition = localStorage.getItem("menu-scroll-position");
         if (scrollPosition) {
             menu.scrollLeft = parseInt(scrollPosition, 10);
@@ -126,7 +147,10 @@
         copybutton.addEventListener('click', (cb) => {
             if ('clipboard' in navigator) {
                 navigator.clipboard.writeText(codeblock.textContent);
-                copyingDone();
+                copybutton.innerHTML = '{{- i18n "code_copied" | default "copied!" }}';
+                setTimeout(() => {
+                    copybutton.innerHTML = '{{- i18n "code_copy" | default "copy" }}';
+                }, 2000);
                 return;
             }
 
@@ -137,9 +161,12 @@
             selection.addRange(range);
             try {
                 document.execCommand('copy');
-                copyingDone();
+                copybutton.innerHTML = '{{- i18n "code_copied" | default "copied!" }}';
+                setTimeout(() => {
+                    copybutton.innerHTML = '{{- i18n "code_copy" | default "copy" }}';
+                }, 2000);
             } catch (e) { };
-            selection.removeRange(range);
+            selection.removeAllRanges();
         });
 
         if (container.classList.contains("highlight")) {
