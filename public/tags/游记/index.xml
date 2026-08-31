@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>游记 on 銀河のポタージュ</title>
+    <link>http://localhost:1313/tags/%E6%B8%B8%E8%AE%B0/</link>
+    <description>Recent content in 游记 on 銀河のポタージュ</description>
+    <generator>Hugo</generator>
+    <language>zh</language>
+    <lastBuildDate>Sun, 30 Aug 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/%E6%B8%B8%E8%AE%B0/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>游记 | 我对英国的全部了解来自于福尔摩斯探案集</title>
+      <link>http://localhost:1313/posts/uk-travelogue/</link>
+      <pubDate>Sun, 30 Aug 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/uk-travelogue/</guid>
+      <description>&lt;p&gt;拖了好久好久好久的英国游记，终于……写了……&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
