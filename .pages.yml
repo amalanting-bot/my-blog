@@ -3,6 +3,8 @@ media:
   bucket: blog-images
   endpoint: https://c119a78fcc84049ab9c33bdeeddd088f.r2.cloudflarestorage.com
   public_url: https://pub-89da842dd4834196ac8bdee3a50502ba.r2.dev
+  region: auto
+  input: ""
 
 content:
   - name: posts
