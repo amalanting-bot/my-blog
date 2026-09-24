@@ -12,6 +12,7 @@ hasCJKLanguage = true
   ShowBreadCrumbs = true
   ShowPostNavLinks = true
   ShowToc = true
+  ShowFullTextinRSS = true
 
 [params.assets]
   favicon = "images/favicon.ico"

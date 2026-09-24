@@ -64,3 +64,19 @@ body {
     animation: none;
   }
 }
+/* ===== 文章/页面正文字号 ===== */
+
+/* 正文 */
+.post-content {
+  font-size: 16px;
+}
+
+/* 正文里的二级标题（## 关于这里、## 找到我） */
+.post-content h2 {
+  font-size: 1.25rem;
+}
+
+/* 正文里的三级标题（###） */
+.post-content h3 {
+  font-size: 1.1rem;
+}
