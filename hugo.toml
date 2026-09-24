@@ -22,7 +22,7 @@ hasCJKLanguage = true
 
 [params.profileMode]
   enabled = true
-  title = "「來日茫茫愁如銀河濃湯。」"
+  title = "「來日茫茫，愁如銀河濃湯。」"
 
 [markup.goldmark.renderer]
   unsafe = true
