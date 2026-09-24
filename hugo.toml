@@ -19,6 +19,13 @@ hasCJKLanguage = true
   favicon32x32 = "images/favicon-32x32.png"
   safari_pinned_tab = "images/favicon.ico"
 
+[params.profileMode]
+  enabled = true
+  title = "「來日茫茫愁如銀河濃湯。」"
+
+[markup.goldmark.renderer]
+  unsafe = true
+
 [[menu.main]]
   name = "文章"
   url = "/posts/"

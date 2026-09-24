@@ -18,3 +18,49 @@ body {
 .post-title {
   font-size: 1.8rem !important;
 }
+
+/* ===== 首页一句话 ===== */
+
+/* 整体位置稍微上移 */
+.profile {
+  padding-bottom: 10vh;
+}
+
+/* 文字样式：小一点、细一点、疏朗一点 */
+.profile .profile_inner h1 {
+  font-size: 1.3rem;
+  font-weight: 400;
+  letter-spacing: 0.4em;
+  padding-left: 0.4em;
+  color: var(--secondary);
+  text-shadow: 0 0 12px rgba(150, 160, 200, 0.25);
+  animation:
+    appear 3s ease-out,
+    float 7s ease-in-out 3s infinite,
+    breathe 5s ease-in-out 3s infinite;
+}
+
+/* 打开页面时缓缓浮现 */
+@keyframes appear {
+  from { opacity: 0; transform: translateY(10px); }
+  to   { opacity: 0.85; transform: translateY(0); }
+}
+
+/* 上下轻轻漂浮 */
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50%      { transform: translateY(-6px); }
+}
+
+/* 若隐若现，像呼吸一样 */
+@keyframes breathe {
+  0%, 100% { opacity: 0.85; }
+  50%      { opacity: 0.35; }
+}
+
+/* 系统设置了「减少动态效果」的访客，不播放动画 */
+@media (prefers-reduced-motion: reduce) {
+  .profile .profile_inner h1 {
+    animation: none;
+  }
+}
