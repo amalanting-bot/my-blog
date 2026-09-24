@@ -134,3 +134,7 @@ body.dark .profile::after {
 .post-header .post-tags {
   margin-top: 12px;
 }
+/* 关于页：页面标题和正文小标题一样大 */
+.post-single:not(:has(.post-meta)) .post-title {
+  font-size: 1.45rem !important;
+}
