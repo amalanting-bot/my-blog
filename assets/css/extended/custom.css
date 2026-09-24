@@ -130,3 +130,7 @@ body.dark .profile::after {
     animation: none;
   }
 }
+/* 文章顶部的标签 */
+.post-header .post-tags {
+  margin-top: 12px;
+}
